@@ -1,0 +1,271 @@
+#connent{
+	padding-top: 88px;
+/* 	overflow: hidden; */
+}
+
+#title{
+	font-size: 24.5px;
+	color: #7c7c7c;
+	line-height: 30px;
+	margin: 15px 0;
+	font-weight: 400;
+}
+.carousel{
+	width: 960px;
+}
+.carousel-imgs{
+	width: 2880px;
+	background: #f4f4f4;
+ 	transition: left 1.5s 0.5s linear; 
+}
+.carousel-item{
+	width: 960px;
+}
+.carousel-txt{
+	float: left;
+	width: 361px;
+	text-align: center;
+	padding: 15px;	
+}
+.carousel-txt h3{
+	font-size: 26px;
+	color: #4d4d4d;
+	font-weight: 400;
+}
+.carousel-txt p{
+	color: #7c7c7c;
+	line-height: 20px;
+}
+.carousel-txt h5{
+	font-weight: bold;
+	color: #7c7c7c;
+	height: 48px;
+}
+.carousel-txt a{
+	display: block;
+	background: #424242;
+	color: #fff;
+	font-size: 17.5px;
+	height: 44px;
+	line-height: 44px;
+}
+.carousel-imgs .carousel-img{
+	float: right;
+	width: 554px;
+}
+
+
+/*左侧侧标栏开始*/
+#widget{
+	overflow: hidden;
+}
+#left{
+	float: left;
+	width: 229px;
+}
+#blue{
+	margin-bottom: 15px;
+}
+#blue li{
+	height: 39px;
+	line-height: 39px;
+	border-bottom: 1px solid #efefef;
+	background: rgba(244, 244, 244, 0.95);
+}
+#blue li a{
+	color: #000;
+	font-weight: bold;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#blue span{
+	float: right;
+	color: #ffffff;
+	line-height: 14px;
+	background-color: #999999;
+	font-weight: bold;
+	padding: 0 8px;
+	margin: 12px 8px 0 0;
+	border-radius: 9px;
+}
+#second{
+	/*height: 180px;*/
+	background: #424242;
+	text-align: center;
+	border: 1px solid #efefef;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+#second >span{
+	font-size: 75px;
+	color: #fff;
+	padding: 5px 0 15px;
+}
+#second h3,p{
+	color: #fff;
+	
+}
+#second h3{
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+#second p{
+	line-height: 18px;
+	margin-bottom: 10px;
+
+}
+#second a{
+	width: 100%;
+	color: #fff;
+	background: #e5412d;
+	font-size: 14px;
+    text-align: center;
+    /*vertical-align: middle;*/
+    padding: 4px 0;
+    cursor: pointer;
+    display: block;
+    line-height: 20px;
+}
+#note{
+	color: #7c7c7c;
+    font-size: 14px;
+	margin-bottom: 10px;
+}
+#sit{
+	width: 197px;
+	height: 60px;
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+	font-size: 13px;
+    color: #7c7c7c;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#easy{
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+	padding: 15px;
+	text-align: center;
+}
+#easy span{
+	display: inline-block;
+	text-align: center;
+    padding: 2px 4px; 
+    font-size: 12px; 
+    font-weight: bold; 
+    color: #fff;
+    background-color: #999999;
+    border-radius: 3px;
+    margin-top: 2px;
+}
+/*左侧侧标栏结束*/
+
+.waterfalls{
+	width: 716px;
+	/*background: #ccc;*/
+	float: right;
+}
+.falls-item{
+	float: left;
+	width: 222px;
+	margin-right: 25px;
+	/*background: #f4f4f4;*/
+}
+.falls-item:last-child{
+	margin-right: 0;
+}
+.waterfalls li{
+	margin-bottom: 15px;
+	background: #f4f4f4;
+	position: relative;
+	overflow: hidden;
+
+}
+.p-price{
+	position: absolute;
+	right: -30px;
+	top: 13px;
+	color: #fff;
+	background: #609450;
+	width: 120px;
+	height: 34px;
+	line-height: 34px;
+	font-weight: bold;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+
+}
+.p-img img{
+	width: 100%;
+}
+.p-info{
+	padding: 15px;
+	overflow: hidden;
+}
+.p-info h3{
+	color:#4d4d4d;
+	line-height: normal;
+	margin-bottom: 5px;
+}
+.p-info p{
+	color: #7c7c7c;
+	font-size: 13px;
+	padding: 0 10px 10px 0;
+}
+.p-info .collect{
+	background: #424242;
+	color: #fff;
+	width: 39px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	position: relative;
+}
+.p-info .collect:hover .col-tip{
+	display: block;
+}
+.col-tip{
+	background: #e86555;
+	color: #fff;
+	padding: 5px;
+	line-height: 20px;
+	position: absolute;
+	left: 0;
+	top: -35px;
+	display: none;
+}
+.col-tip::after{
+	content:"";
+	border: 5px solid transparent;
+	border-top: 5px solid #e86555;
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: -9px;
+	left: 50%;
+	margin-left: -5px;
+}
+.p-info .add-cart{
+	background: #609450;
+	color: #fff;
+	font-size: 14px;
+	padding: 7px 12px;
+	float: left;
+}
+.p-info .view{
+	background: #e7e7e7;
+	color: #000;
+	width: 39px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	float: right;
+	position: relative;
+}
+.p-info .view:hover .col-tip{
+	display: block;
+}

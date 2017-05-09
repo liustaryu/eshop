@@ -1,0 +1,111 @@
+#content{
+	padding-top: 88px;
+}
+.top{
+	overflow: hidden;
+}
+#title{
+	color: #7c7c7c;
+	font-size: 25px;
+	line-height: 30px;
+	padding: 15px;
+	float: left;
+}
+#title .glyphicon{
+	color: #575655;
+	font-size: 27px;
+	padding-right: 5px;
+}
+.selecte{
+	float: right;
+}
+.with{
+	font-weight: bold;
+	color: #7c7c7c;
+	display: block;
+	margin-top: 15px;
+	float: left;
+	margin-right: 5px;
+}
+.btns-box{
+	float: right;
+	cursor: pointer;
+}
+.btns-box  li:hover{
+	color: #fff;
+	background: #00f;
+}
+.btns-box:hover ul{
+	/* display: block; */
+}
+.action{
+	display: inline-block;
+	width: 181px;
+	height: 20px;
+	background: #efefef;
+	font-weight: 600;
+	color: #333333;
+	padding: 3px 15px;
+	margin-top: 15px;
+	position: relative;
+}
+.action::after{
+	content: "";
+	border: 4px solid transparent;
+	border-top: 4px solid rgba(0, 0, 0, 0.5);
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top: -2px;
+	
+}
+.btns-box ul{
+	width: 211px;
+	height: 80px;
+	border: 1px solid #efefef;
+	border-radius: 5px;
+	margin-top: 2px;
+	position: absolute;
+	display: none;
+	z-index: 1;
+	background: #fff;
+}
+.btns-box li{
+	line-height: 25px;
+	text-indent: 150px;
+}
+table{
+	width: 100%;
+	margin: 0 0 30px;
+	/*cellspacing:0;*/
+}
+table th,table td{
+	padding: 8px;
+}
+table th{
+	background: #e5412d;
+}
+table{
+	border-right: 1px solid #efefef;
+
+}
+table tbody tr:hover,table tbody tr.selected{
+	background: #7c7c7c;
+}
+table td{
+	border-bottom: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+	text-align: center;
+}
+td .ipt{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	outline: none;
+}
+.product .img-box{
+	float: left;
+}
+.product{
+	text-align: left;
+}

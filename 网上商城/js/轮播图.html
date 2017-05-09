@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>轮播图</title>
+	<link rel="stylesheet" href="../fonts/glyphicons/css/glyphicons.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			list-style: none;
+		}
+		#carousel{
+			width: 600px;
+			margin: 200px auto;
+			position: relative;
+		}
+		#carousel img{
+			width: 100%;
+			display: none;
+		}
+		#carousel .selected{
+			display: block;
+		}
+		#btn-box{
+			position: absolute;
+			bottom: 50px;
+			right: 10px;
+		}
+		#btn-box li{
+			width: 20px;
+			height: 20px;
+			background: #f09388;
+			float: left;
+			margin-left: 10px;
+			text-align: center;
+		}
+		#btn-box .active{
+			background: #f00;
+		}
+		.btn{
+			position: absolute;
+			left: 10px;
+			bottom: 45px;
+		}
+		.btn span{
+			font-size: 30px;
+			font-weight: 700;
+			color: #fff;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="carousel">
+		<div class="img-box">
+			<img class="selected" src="../img/25.jpg" alt="">
+			<img src="../img/26.jpg" alt="">
+			<img src="../img/27.jpg" alt="">
+			<img src="../img/28.jpg" alt="">
+		</div>
+		<ul id="btn-box">
+			<li class="active">1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+		<div class="btn">
+			<span id="last">&lt</span>
+			<span id="next">&gt</span>
+		</div>
+	</div>
+	<script>
+	var oCarousel = document.getElementById("carousel");
+	var aLi = oCarousel.getElementsByTagName('li');
+	var aImg = oCarousel.getElementsByTagName('img');
+	var oNext = document.getElementById("next");
+	var oLast = document.getElementById("last");
+	var iNow = 0;
+	var timer;
+
+	for(i=0;i<aLi.length;i++){
+		aLi[i].index = i;
+		aLi[i].onmouseover = function(){
+			changeImg(this.index);
+			iNow = this.index;
+		/*	for(i=0;i<aImg.length;i++){
+				aLi[i].className = '';
+				aImg[i].style.display = "none";
+
+			}
+			aImg[this.index].style.display = "block";
+			this.className = 'active';*/
+		}
+	}
+
+	
+	oNext.onclick = function(){
+		iNow++;
+		iNow = iNow%aImg.length;
+		changeImg(iNow);
+		/*for(i=0;i<aImg.length;i++){
+			aLi[i].className = '';
+			aImg[i].style.display = "none";
+
+		}
+		aImg[iNow].style.display = "block";
+		aLi[iNow].className = 'active';
+*/
+	}
+
+
+	oLast.onclick = function(){
+		iNow--;
+		if(iNow == -1){
+			iNow = aImg.length-1;
+		}
+		changeImg(iNow);
+	}
+
+
+	function changeImg(idx){
+		for(i=0;i<aImg.length;i++){
+			aLi[i].className = '';
+			aImg[i].style.display = "none";
+
+		}
+		aImg[idx].style.display = "block";
+		aLi[idx].className = 'active';
+	}
+
+	oCarousel.onmouseover = function(){
+		clearInterval(timer);
+	}
+	oCarousel.onmouseout = function(){
+		run();
+	}
+	function run(){
+		timer = setInterval(function(){
+		oNext.onclick();
+		},2000)
+	}
+	run();
+	</script>
+</body>
+</html>

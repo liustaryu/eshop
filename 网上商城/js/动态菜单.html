@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		margin:0;
+		padding: 0;
+	}
+	ul{
+		list-style: none;
+	}
+	#menu{
+		width: 100px;
+		border: 1px solid #ccc;
+		position: absolute;
+		}
+	#menu li{
+		height: 20px;
+		line-height: 20px;
+		border: 1px solid #ccc;
+		text-indent: 10px;
+	}
+	#menu li:hover{
+		background: #ccc;
+	}
+	</style>
+</head>
+<body>
+<!-- 	<ul id="menu">
+    	<li>菜单1</li>
+    	<li>菜单2</li>
+    	<li>菜单3</li>
+    </ul> 
+ -->
+</body>
+<script>
+
+document.oncontextmenu = function(e){
+	var e = e || wondow.event;
+	var Menu = document.getElementById('menu');
+	if(Menu){
+		document.body.removeChild(Menu);
+	}
+		var aUl = document.createElement("ul");
+		aUl.id = "menu";
+		aUl.style.left = e.clientX +"px";
+		aUl.style.top = e.clientY +"px";
+		for(var i=1;i<=3;i++){
+			var aLi= document.createElement("li");
+			aLi.innerHTML = "菜单"+i;
+			aUl.appendChild(aLi);
+		
+		}
+		document.body.appendChild(aUl);
+	return false;
+
+};
+
+
+</script>
+</html>

@@ -1,0 +1,256 @@
+/*banner开始*/
+#banner{
+	height: 356px;
+	background: #1f2123;
+	padding-top: 88px;	
+}
+#banner .banner-content{
+	width: 420px;
+	height: 280px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -140px;
+	text-align: center;
+}
+#banner .banner-content h1{
+	color: #fff;
+	height: 46px;
+	line-height: 46px;
+	font-size: 38px;
+
+}
+#banner .banner-content p{
+	color: #fff;
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 20px;
+
+}
+#banner .banner-content a{
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+	margin-right: 50px;
+}
+#banner .banner-content .check-out{
+	background: #e5412d;
+}
+
+#banner .banner-content .buy-now{
+	background: #e7e7e7;
+	color:#333333;
+	margin-right: 0; 
+}
+/*banner结束*/
+
+/*awesome开始*/
+#awesome{
+	height: 100px;
+	background: #f4f4f4;
+	line-height: 100px;
+	text-align: center;
+	border-bottom: 1px solid #efefef;
+	margin: 0 0 15px;
+}
+#text-primary{
+	font-size: 26px;
+	color:#e5412d;
+	font-weight: bold;
+}
+#text-features{
+	font-size: 26px;
+	color:#4d4d4d;
+}
+#hidden-phone{
+	color: #ccc;
+	font-style:italic;
+}
+/*awesome结束*/
+#slogan{
+	padding: 15px;
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+	width: 930px;
+	margin: 15px auto;
+	color: #7c7c7c;
+}
+#features{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#features li{
+	width: 197px;
+	height: 225px;
+	padding: 15px;
+	margin-right: 15px;
+	border: 1px solid #efefef;
+	float: left;
+	text-align:center;
+}
+#features li:last-child{
+	margin-right:0;
+	width: 196px;
+	float: right;
+}
+#features .glyphicon{
+	font-size: 70px;
+	color: #e2e2e2;
+}
+#features h3{
+	font-family:'roboto slab' ,sans-serif;
+	font-size: 17.5px;
+	margin:10px 0 10px;
+	font-weight: 400;
+	color: #4d4d4d;
+}
+#features p{
+	color: #7c7c7c;
+	line-height: normal;
+	margin-bottom: 10px;
+
+}
+
+#features a{
+	color: #e5412d;
+}
+
+
+
+
+#follow-us{
+	height: 137px;
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+	text-align: center;
+	padding: 15px;
+}
+#follow-us h3{
+	font-size: 21px;
+	margin-bottom: 10px;
+	color:#7c7c7c;
+	font-weight: 200;
+	line-height: 30px;
+}
+#follow-list{
+	display: inline-block;
+	margin-right:20px;
+}
+#follow-list li{
+	float: left;
+	margin-right: 20px;
+	line-height: 20px;
+}
+#follow-list .glyphicon{
+	font-size: 50px;
+}
+#follow-list a{
+	font-size: 12px;
+	color: #444444;
+}
+#follow-list .selected a{
+	color: #e5412d;
+}
+#follow-list .selected .glyphicon{
+	color:#e5412d;
+}
+
+#chat-list{
+	overflow: hidden;
+}
+#chat-list .chat-item{
+	width: 440px;
+	height: 73px;
+	border: 1px solid #efefef;
+	padding: 15px;
+	margin-bottom: 15px;
+
+}
+
+#chat-list .chat-item:nth-child(2n+1){
+	float: left;
+}
+	
+#chat-list .chat-item:nth-child(2n){
+	float: right;
+}
+#chat-list .glyphicon{
+	font-size: 32px;
+	float: left;
+	color: #ccc;
+}
+#chat-list p{
+	margin-left: 70px;
+	margin-bottom: 5px;
+	color: #7c7c7c;
+}
+#chat-list a{
+	color: #e5412d;
+	font-weight: 700;
+}
+
+#testmonials{
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 24px;
+	color:#7c7c7c;
+	margin: 15px 0;
+}
+#testmonials .glyphicon{
+	color: #575655;
+	font-size: 27px;
+	
+}
+
+
+#give{
+	position: relative;
+	text-align: center;
+   	background: #f4f4f4;
+	border: 1px solid #efefef;
+	padding: 16px;
+	margin-bottom: 15px;
+}
+#give .left{
+	width: 614px;
+    float: left;
+		
+}
+#give h2{
+	/*left:15px;*/
+	font-size: 26px;
+	font-weight:400;
+
+}
+#give .giveus{
+	display: inline-block;
+	color:#7c7c7c;
+	left: 20px;
+}
+#give .btn{
+	width: 300px;
+	height: 42px;
+	display: inline-block;
+	font-size: 13px;
+    background: #e5412d;
+    border-color: #e5412d;
+    color: #ffffff;	
+    
+}
+
+#give .glyphicon{
+	color: rgba(255, 255, 255, 0.4);
+	float: left;
+	font-size: 25px;
+	padding: 10px 15px;
+
+}
+
+#give .btn p{
+	font-size: 13px;
+	text-align:left;
+	font-weight: 600;
+	color: #fff;
+	margin-top:3px;
+}
+

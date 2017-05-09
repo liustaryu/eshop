@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<a href="">aaaa</a>
+	<div id="div1">ddljnnn</div>
+	<ul id="ul1">
+		<li>111</li>
+		<li>222</li>
+		<li>333</li>
+	</ul>
+
+	<script>
+
+	var oDiv = document.getElementById("div1");
+	var oUl = document.getElementById("ul1");
+
+
+	function next(elem){
+		do{
+		elem = elem.nextSibling;
+		}while( elem && elem.nodeType !=1);
+		return elem;
+	}
+	console.log(next(oDiv));
+
+
+	function previous(elem){
+		do{
+			elem = elem.previousSibling;
+		}while( elem && elem.nodeType !=1);
+		return elem;
+	}
+	console.log(previous(oDiv));
+
+
+	function first(elem){
+		elem = elem.firstChild;
+		if( elem && elem.nodeType !=1){
+		elem = next(elem);
+		}
+		return elem;
+	}
+	console.log(first(oUl));
+
+
+
+	function last(elem){
+		elem = elem.lastChild;
+		if( elem && elem.nodeType !=1){
+		elem = previous(elem);
+		}
+		return elem;
+	}
+	console.log(last(oUl));
+
+
+	
+	/*var oDiv = document.getElementById('div1');
+	var oUl = document.getElementById('ul1');
+		function next(elem){
+			do{
+				elem = elem.nextSibling;
+			}while(elem &&	elem.nodeType !=1);
+			return elem;
+		}
+
+		console.log(next(oDiv));
+
+
+
+		function previous(elem){
+			do{
+				elem = elem.previousSibling;
+			}while(elem &&	elem.nodeType !=1);
+			return elem;
+		}
+
+		console.log(previous(oDiv));
+
+		function first(elem) {
+			elem = elem.firstChild;
+			if(elem &&	elem.nodeType !=1){
+				elem = next(elem);
+			}
+			return elem;
+		}
+
+		console.log(first(oUl));
+
+		function last(elem) {
+			elem = elem.lastChild;
+			if(elem &&	elem.nodeType !=1){
+				elem = previous(elem);
+			}
+			return elem;
+		}
+
+		console.log(last(oUl));*/
+		
+	</script>
+</body>
+</html>

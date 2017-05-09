@@ -1,0 +1,24 @@
+.whatever{
+	padding-top: 88px;
+	height: 400px;
+}
+.contacct-us input{
+	outline:none;
+}
+.contacct-us textarea{
+	outline:none;
+}
+.info-fax{
+	margin-top: 60px;
+	background: #424242;
+	margin-bottom: 0;
+}
+.info-fax h1,a{
+	color: #fff;
+}
+.info-fax p{
+	color: #fff;
+}
+.info-fax .help{
+	cursor: help;
+}

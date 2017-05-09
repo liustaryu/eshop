@@ -1,0 +1,107 @@
+/*#connent{
+	overflow: hidden;
+}
+*/
+#blog-info li{
+	width: 684px;
+	padding: 15px;
+	float: right;
+	border: 1px solid #efefef;
+	margin-bottom: 15px;
+}
+#blog-info .blog-one{
+	height: 175px;
+}
+#blog-info img{
+	padding: 3px;
+	border: 1px solid #efefef;
+    background: #fff;
+    /*display: inline-block;*/
+}
+#blog-info .blog-one img{
+	width: 213px;
+	height: 141px;
+	
+	float: left;
+	margin-right: 10px;
+	
+}
+#blog-info p{
+	font-size: 13px;
+    color: #7c7c7c;
+    line-height: normal;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.bolg-time{
+	position: relative;
+}
+.bolg-time h3{
+	font-size: 15px;
+	color: #4d4d4d;
+	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+.bolg-time .glyphicon{
+	color: #7c7c7c;
+    margin-right: 8px;
+    margin-bottom:20px;
+}
+.bolg-time a{
+	color: #e5412d;
+
+}
+.bolg-time .read{
+	position: absolute;
+	left: 232px;
+	font-weight: bold;
+}
+.read .glyphicon{
+	color: #e5412d;
+
+}
+#blog-info .blog-two{
+	height: 227px;
+}
+.blog-two{
+	position: relative;
+}
+.blog-two img{
+	width: 329px;
+	height: 219px;
+	float: right;
+}
+.blog-two .read{
+	position: absolute;
+	left: 0;
+}
+.blog-two .com{
+	position: absolute;
+	right: 480px;
+	top: 190px;
+}
+.three{
+	/*position: relative;*/
+}
+.three .read{
+	/*position: absolute;*/
+	left: 350px;
+}
+.three .com{
+	position: absolute;
+	left: 450px;
+}
+.three img{
+	float: left;
+	margin-right: 10px;
+}
+#blog-info .four img{
+	float: right;
+}
+.four{
+	background: #f4f4f4;
+}
+.four .read{
+	left: 0;
+}

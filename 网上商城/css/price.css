@@ -1,0 +1,297 @@
+#connent{
+	padding-top: 88px;
+}
+/*左侧开始*/
+.big-box{
+	overflow: hidden;
+}
+.price{
+	font-size: 25px; 
+	color: #7c7c7c;
+	margin: 15px 0 20px 0;
+}
+.price-list{
+	width: 716px;
+	/*height: 1229px;*/
+	float: left;
+}
+.price-list .choose{
+	color: #7c7c7c;
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+	padding: 15px;
+	text-align: center;
+}
+.simply{
+	color: #fff;
+	background: #424242;
+	border: 1px solid #efefef;
+	padding: 15px;
+	margin-top: 15px;
+	overflow: hidden;
+	position: relative;
+}
+.simply h5{
+	width: 510px;
+	font-size: 14px;
+	margin: 0 0 5px;
+	font-weight: bold;
+}
+.simply-left{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+.simply p{
+	width: 510px;
+	margin: 0 0 10px;
+    line-height: normal;
+}
+.simply span{
+	font-size: 70px;
+    line-height: 70px;
+    font-weight: bold;
+}
+.simply a{
+	color: #fff;
+	font-weight: bold;
+}
+.simply .pay{
+	font-weight: 600;
+	background: #e5412d;
+	padding: 2px 10px;
+	font-size: 12px;
+	width: 143px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 20px;
+}
+.float{
+	overflow: hidden;
+}
+.simply-license{
+	width: 321px;
+	height: 235px;
+	padding: 15px;
+	border: 1px solid #efefef;
+	float: left;
+}
+.simply-license h5{
+	font-size: 14px;
+	color: #4d4d4d;
+	margin-bottom: 5px;
+}
+.simply-license .simply-p{
+	font-size: 13px;
+    color: #7c7c7c;
+    margin: 0 0 10px;
+}
+.simply-license span{
+	font-size: 70px;
+    line-height: 70px;
+    color: #e5412d;
+    font-weight: bold;
+    margin-left: 24px;
+}
+.read-more{
+	float: right;
+	font-weight: bold;
+	margin: 15px 40px 0 0;
+}
+.read-more a{
+	color: #e5412d;
+}
+.read-more .pay-now{
+	color: #fff;
+	background: #e5412d;
+	display: block; 
+	padding: 0 6px;
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.license{
+	width: 332px;
+	float: right;
+	border-left: 0;
+	position: relative;
+}
+
+.per-month{
+	width: 161px;
+	height: 102px;
+	background: #f4f4f4;
+	text-align: center;
+	border: 1px solid #efefef;
+	float: left;
+}
+.simply-license .per-month span{
+	font-size: 50px;
+	margin-left: 0;
+
+}
+.year{
+	float: right;
+}
+
+.license .more-two a:first-child{
+	position: absolute;
+	left: 15px;
+}
+.license .more-two a:last-child{
+	margin-right: -40px;
+	margin-top: 0px;
+}
+.plans{
+	color: #7c7c7c;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+/*列表开始*/
+#table{
+	text-align: center;
+	border: 1px solid #efefef;
+}
+#table td{
+	width: 179px;
+	border-right: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+}
+.table-title td{
+	padding: 13px 26px;
+    background: #64625f;
+    font-size: 14px;
+    color: #fff;
+    border-color: #5a5855;
+    font-weight: bold;
+}
+.center .table-body{
+	padding: 12px 10px 10px;
+    background: #e5e5e5;
+    /*border-color: #cecece;*/
+    color: #7c7c7c;
+}
+.table-price{
+	font-weight: 600;
+    font-size: 24px;
+        /*border-color: grey;*/
+   
+}
+.table-bottom{
+	padding: 10px;
+}
+.table-bottom p{
+	font-size: 13px;
+    color: #7c7c7c;
+    line-height:0;
+    padding: 10px;
+   
+}
+/*.table-bottom p:last-child{
+	margin-bottom: 10px;
+}*/
+.table-bottom a{
+	background: #e5412d;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 12px;
+    line-height: 20px;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-top: 15px;
+}
+/*列表结束*/
+.common{
+	color: #7c7c7c;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.common-question{
+    border: 1px solid #efefef;	
+}
+.common-question li{
+	height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #efefef;
+    color: #7c7c7c;
+}
+.common-question a{
+	color: #7c7c7c;
+	font-weight: 600;
+}
+.common-question .glyphicon{
+	padding: 0 10px;
+	
+}
+/*左侧结束*/
+
+/*右侧开始*/
+.price-right{
+	width: 229px;
+	height: 754px;
+	float: right;
+}
+#second{
+	height: 180px;
+}
+#second p{
+	margin-bottom: 0;
+	line-height: 15px;
+}
+#second a{
+	background: none;
+	padding-top: 0;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.sign{
+	width: 229px;
+	height: 94px;
+	display: inline-block;
+	text-align: center;
+	background: #bbbbbb;
+	color: #fff;
+	padding: 8px;
+}
+.sign .glyphicon{
+	font-size: 25px;
+	
+}
+.sign span:last-child{
+	font-size: 60px;
+	display: block;
+
+}
+.sign .ups{
+	font-size: 13px;
+}
+
+/*右侧结束*/
+#separator{
+	/*clear: both;*/
+	/*margin-top: 30px;*/
+}
+ .last{
+	font-size: 13px;
+    color: #7c7c7c;
+    padding: 15px;
+    border: 1px solid #efefef;
+    background: #f4f4f4;
+    margin-bottom: 15px;
+}
+.last a{
+	color: #e5412d;
+    text-decoration: underline;
+}
+.last a:hover{
+	color: #333333;
+	text-decoration: none;
+}

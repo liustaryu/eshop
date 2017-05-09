@@ -1,0 +1,308 @@
+
+/*#connent-amaing开始*/
+
+#connent-amaing{
+	padding-top: 88px;
+	height: 321px;
+	background: #000;
+}
+.amazing{
+	position: relative;
+}
+.amazing h1{
+	width: 454px;
+	height: 46px;
+	font-size: 29px;
+    line-height: 46px;
+    background: #fff;
+    color: #e5412d;
+    font-weight: bold;
+    padding: 0 15px;
+	position: absolute;
+	top: 65px;
+    right: 27px;
+}
+.amazing p{
+	width: 370px;
+	background: #1f1e1e;
+    color: #fff;
+    padding: 10px 15px;
+    position: absolute;
+    top: 126px;
+    right: 27px;
+    line-height: 25px;
+    text-align: right;
+}
+.amazing a{
+    text-decoration: underline;
+    color: #e5412d;
+}
+.amazing .check-out{
+	font-size: 18px;
+	padding: 10px 10px 10px 10px;
+    font-weight: 600;
+    background: #e5412d;
+    border-color: #e5412d;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    position: absolute;
+    top: 232px;
+    right: 27px;
+    border: 1px solid #e5412d;
+}
+.amazing .check-out span{
+	font-size: 17px;
+	color: rgba(255, 255, 255, 0.4);
+	margin-right: 10px;
+}
+/*#connent-amaing结束*/
+#news{
+	height: 97px;
+	/*overflow: hidden;*/
+}
+.news-left{
+	width: 472px;
+	float: left;
+	margin-right:12px;
+}
+.news-left h5{
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 15px;
+}
+.news-left .glyphicon{
+	color: #e2e2e2;
+    font-size: 32px;
+    float: left;
+}
+.news-left p{
+	width: 425px;
+	height: 30px;
+	color: #7c7c7c;
+	float: right;
+}
+
+.link-list a{
+	width: 50px;
+	height: 77px;
+	padding: 10px 19px;
+    color: #d5d5d5;
+    display: block;
+    float: left; 
+    text-align: center;
+    border-right: 1px solid #e5e5e5;
+    font-weight: bold;
+
+}
+.link-list .glyphicon{
+	margin-bottom:10px;
+	font-size: 50px;
+	
+}
+.link-list .facebook{
+	width: 54px;
+    color: #fff;
+    background: #e5412d;
+}
+.link-list .list-one:hover a{
+ 	color: #fff;
+    background: #e5412d;	
+}
+.link-list .skype{
+	border-right: 0;
+}
+.landing-page{
+	line-height: 100px;
+    height: 100px;
+    border-bottom: 1px solid #efefef;
+    background: #f4f4f4;
+    text-align: center;
+}
+.landing-page h2{
+	font-weight: 400;
+    color: #4d4d4d;
+    font-size: 26px;
+}
+.landing-page .page{
+	font-weight: bold;
+	color: #e5412d
+}
+.landing-page .here{
+	font-size: 13px;
+	font-style: italic;
+	color: #444;
+	position: relative;
+    top: -3px
+}
+#talk .one{
+	border: none;
+	margin-top: 20px;
+}
+#carousel{
+	float: right;
+	margin-top: 30px;
+
+}
+#features{
+	padding: 15px 0;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+#features li{
+	width: 310px;
+	height: 217px;
+	border: none;
+	padding: 0;
+	margin-right: 0;
+}
+#features li:first-child{
+	margin-right:15px;
+}
+#features li:last-child{
+	width: 310px;
+}
+#features .glyphicon{
+	font-size: 70px;
+	height: 90px;
+}
+#features .glyphicon-phone{
+	color: #e5412d;
+}
+#features li p{
+	line-height: 15px;
+	margin-bottom: 0;
+}
+.like{
+	height: 58px;
+	line-height: 58px;
+	text-align: right;
+}
+.dove{
+	color: #7c7c7c;
+	padding-right: 15px;
+}
+.like a{
+	font-size: 14px;
+	background: #609450;
+    border: 1px solid #609450;
+    color: #ffffff;
+    padding: 7px 13px;
+    font-weight: 700;
+
+}
+#fully{
+	overflow: hidden;
+	padding: 45px 0 30px ;
+}
+.li-left{
+	width: 472px;
+	height: 95px;
+	float: left;
+	margin-bottom: 30px;
+}
+.li-right{
+	float: right;
+
+}
+.li-left h3{
+	font-size: 18px;
+    font-weight: 400;
+    color: #4d4d4d;
+    margin-bottom: 5px;
+}
+.li-left p{
+    color: #7c7c7c;
+}
+.li-left a{
+	color: #e5412d;
+}
+.li-left .fully-one{
+	width: 397px;
+	float: right;
+}
+.li-two{
+	float: right;
+}
+.li-left .fully-two{
+	width: 387px;
+}
+.li-left .glyphicon{
+	font-size: 50px;
+	color: #e2e2e2;
+}
+
+#table{
+	margin-bottom: 20px;
+}
+#table td{
+	width: 184px;
+}
+.contacct{
+	overflow: hidden;
+}
+.contacct-us{
+	width: 554px;
+	margin-top: 30px;
+	float: left;
+}
+.contacct-us h3{
+    font-size: 25px;
+    color: #7c7c7c;
+}
+.contacct-us input{
+	width: 259px;
+	height: 20px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	border: 1px solid #cccccc;
+}
+.contacct-us .name{
+	font-size: 13px
+}
+.message{
+	width: 540px;
+	height: 100px;
+	padding: 4px 6px;
+	border: 1px solid #cccccc;
+	display: block;
+	font-size: 13px
+}
+.contacct-us a{
+	display: inline-block;
+	background: #e5412d;
+    border: 1px solid #e5412d;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 7px 4px 5px;
+    margin-top: 10px;
+}
+.contacct-us a .glyphicon{
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 15px;
+	padding: 7px 5px 0 5px;
+}
+.info-fax{
+	width: 359px;
+	height: 205px;
+	padding: 15px;
+	background: #f4f4f4;
+    border: 1px solid #efefef;
+    float: right;
+    margin: 30px 0;
+}
+.info-fax h1{
+	font-size: 26px;
+	font-weight: 400;
+    color: #4d4d4d;
+    margin-bottom: 5px;
+}
+.info-fax p{
+	color: #7c7c7c;
+	margin-bottom: 5px;
+}
+.info-fax .find-us{
+	margin: 35px 0 0;
+}

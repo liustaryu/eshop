@@ -1,0 +1,240 @@
+
+/*title开始*/
+#connent{
+	padding-top: 88px;
+}
+#connent h1{
+	padding: 10px;
+	color:#7c7c7c;
+	font-size: 25px
+}
+#connent .mos{
+	color:#afafaf;
+	font-style: italic;
+	font-size: 13px;
+}
+/*title结束*/
+#slogan{
+	color: #7c7c7c;
+	text-align: center;
+	font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    background: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+#user-list{
+	overflow: hidden;
+}
+#user-list img{
+	width: 300px;
+	height: 200px;
+	display: block;
+}
+#user-list >li{
+	width: 300px;
+	height: 353px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	margin-right: 15px;
+	float: left;
+}
+#user-list li:last-child{
+	margin-right: 0;
+}
+#user-list h3{
+	font-weight: 400;
+    color: #4d4d4d; 
+    margin: 8px 0 0 8px; 
+}
+#user-list p{
+	color:#7c7c7c;
+	padding: 8px;
+}
+#user-list .social li{
+	float: left;
+}
+#user-list .glyphicon{
+	font-size: 24px;
+	padding: 4px;
+}
+
+#separator{
+	height: 2px;
+	background: #f4f4f4;
+	margin:40px auto;
+	text-align: center;
+}
+#separator .glyphicon{
+	color:#7c7c7c;
+	font-size: 35px;
+	top: -14px;
+	padding: 0 10px;
+	background: #fff;
+}
+#talk{
+	overflow: hidden;
+}
+#talk .one{
+	width: 470px;
+	height: 280px;
+	float: left;
+	border: 1px solid #efefef;
+	margin-right: 5px;
+	
+}
+#talk .glyphicon{
+	font-size: 50px;
+	color: #e2e2e2;
+	float: left;
+	padding: 0 20px 30px 20px;
+}
+#talk h3{
+	font-size: 18px;
+	font-weight: 400;
+    color: #4d4d4d;
+    margin-top: 25px;
+}
+#talk p{
+	color: #7c7c7c;
+	margin-top: 5px;
+}
+#talk a{
+	 color: #e5412d;	
+}
+#talk a:hover{
+	color:#000;
+}
+
+#any{
+	height: 2px;
+	background: #f4f4f4;
+	text-align: center;
+	margin: 40px 0;
+}
+#any .glyphicon{
+	font-size: 40px;
+	top:-16px;
+	padding: 0 5px;
+	color: #e2e2e2;
+	background: #fff;
+}
+#carousel{
+	width: 472px;
+	height: 256px;
+	overflow: hidden;
+	display: inline-block;
+	/*position: relative;*/
+}
+#carousel .top{
+	width: 1416px;
+	height: 223px;
+	background: #f4f4f4;
+	display: inline-block;
+
+}
+#carousel .first{
+	width: 470px;
+	height: 256px;
+	float: left;
+}
+#carousel img{
+	width: 268px;
+	height: 181px;
+	margin-left: 9px;
+}
+#carousel .too{
+	width: 163px;
+	display: inline-block;
+	float: left;
+	padding: 15px;
+}
+#carousel .too h4{
+	font-size: 16px;
+    color: #000;
+    font-weight: 600;
+
+}
+#carousel .too p{
+	color:#7c7c7c;
+	line-height: 20px;
+	margin-top: 5px;
+}
+#carousel .too a{
+	color: #000;
+}
+
+#carousel .btn li{
+	width: 10px;
+	height: 10px;
+	background: #f00;
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+#carousel .btn li:first-child{
+	margin-right: 0;
+}
+#right{
+	width: 473px;
+	height: 244px;
+	float:right;
+}
+
+#right .news{
+	width: 471px;
+	height: 112px;
+	/*float: right;*/
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+
+}
+#right .news h5{
+	font-weight: 400;
+    color: #4d4d4d;
+    font-size: 14px;
+    margin: 20px 0 0 30px;
+
+}
+#right .news .glyphicon{
+	color: #e2e2e2;
+    font-size: 32px;
+    display: block;
+    float: left;
+    margin:0 15px;
+}
+#right .news  p{
+	width: 393px;
+	color: #7c7c7c;
+	line-height: normal;
+	margin-left: 10px;
+}
+#right .twitter{
+	width: 473px;
+	height: 40px;
+	margin-top: 20px;
+}
+#right .twitter h3{
+	font-size: 14px;
+	color: #7c7c7c;
+	margin-bottom: 7px;
+}
+#right .glyphicon{
+	margin-right: 5px;
+}
+#right .twitter p{
+	 background: #f4f4f4;
+	 border: 1px solid #efefef;
+	 color: #7c7c7c;
+	 padding: 15px;
+	 line-height: 20px;
+} 
+#right p .data{
+	background-color: #333333;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 2px 4px;
+}  
+

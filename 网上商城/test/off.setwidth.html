@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#div1{
+			width: 300px;
+			margin: 5px;
+			padding: 10px;
+			border: 5px solid #0f0;
+			height: 100px;
+			background: #f00;
+		}
+
+	</style>
+</head>
+<body>
+<div id="div1">
+	jdch;ifggb
+</div>
+
+<script>
+var oDiv = document.getElementById('div1');
+//console.log(oDiv.offsetWidth+"px");/*取到border以内的可视宽度;*/
+
+function getStyle(elem,attr){
+	if(elem.currentStyle){  //ie
+		return elem.currentStyle[attr];
+	}else{
+		return getComputedStyle(elem,null)[attr];
+	}
+}
+console.log(getStyle(oDiv,"width"));
+
+</script>
+	
+</body>
+</html>

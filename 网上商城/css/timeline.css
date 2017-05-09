@@ -1,0 +1,232 @@
+#connent{
+	padding-top: 88px;
+	position: relative;
+	overflow: hidden;
+}
+#title{
+	margin: 15px 0 0 5px;
+}
+.separator{
+	margin-bottom: 0;
+}
+.separator::after{
+	content:"";
+	width: 960px;
+	height: 1px;
+	display: inline-block;
+	background: #efefef;
+}
+#left{
+	padding: 15px 15px 0 0;
+	position: relative;
+}
+.bug{
+	padding: 15px 0 15px 15px;
+}
+#blog-info{
+	padding: 15px 15px 15px 30px;
+	margin-top: 25px;
+	
+}
+#blog-info li{
+	width: 557px;
+}
+#blog-info .blog-one{
+	height: 190px;
+	/*overflow: hidden;*/
+	position: relative;
+}
+#blog-info .blog-one img{
+	width: 172px;
+	height: 114px;
+	
+}
+#blog-info .blog-one p{
+	width: 368px;
+	height: 105px;
+	position: absolute;
+	left: 190px;
+}
+#blog-info .blog-two{
+	height: 235px;
+}
+
+#blog-info .blog-two img{
+	width: 266px;
+	height: 177px;
+}
+#blog-info .blog-two p{
+	width: 274px;
+	height: 120px;
+}
+.bolg-time .glyphicon{
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+.bolg-time .read{
+	left: 190px;
+	top: 175px;
+}
+.blog-two .read{
+	left: 0;
+	top: 215px;
+}
+.blog-two .com{
+	left: 100px;
+	top: 215px;
+}
+.three{
+	position: relative;
+}
+.three p{
+	position: absolute;
+	right: 0;
+}
+.three .read{
+	left: 285px;
+}
+.three .com{
+	left: 380px;
+}
+.four{
+	position: relative;
+	margin-top: 38px;
+}
+#blog-info .four p{
+	position: absolute;
+	left: 0;
+}
+.four .read{
+	left: 0;
+}
+.center{
+	float: left;
+	position: absolute;
+	left: 300px;
+	top: 157px;
+}
+.center::after{
+	width: 2px;
+	height: 1134px;
+	background: #d2d1d0;
+}
+.bottom{
+	margin-bottom:30px;
+}
+#blue{
+	position: relative;
+}
+#blue .clock{
+	position: absolute;
+	display: block;
+	left: 240px;
+	top: 90px;
+	color: #c6c6c5;
+	background: #fff;
+}
+#blue .time::after{
+	content:"";
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: #f00;
+	position: absolute;
+	left: 57px;
+	top: -15px;
+	z-index: 0;
+}
+#blue .heart{
+	position: absolute;
+	color: #f00;
+	background: #fff;
+	top: 70px;
+	font-size: 20px;
+	left: 250px;
+}
+#blue .now{
+	width: 50px;
+	height: 20px;
+	color: #7c7c7c;
+	background: #ffffff;
+	border: 1px solid #efefef;
+	border-radius: 0;
+	text-align: center;
+	line-height: 20px;
+	padding: 8px 0;
+	position: absolute;
+	left: 275px;
+	top: 5px;
+	z-index: 0;
+
+}
+.posts{
+    text-align: center;
+}
+.posts a{
+	width: 144px;
+	height: 20px;
+	background: #e5412d;
+    border-color:1px solid #e5412d;
+    color: #ffffff;
+    padding: 11px 19px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#note{
+	position: relative;
+}
+#note .clock{
+	position: absolute;
+	display: block;
+	left: 240px;
+	top: -63px;
+	color: #c6c6c5;
+	background: #fff;
+}
+#note .time::after{
+	content:"";
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: #f00;
+	position: absolute;
+	left: 57px;
+	top: -15px;
+	z-index: 0;
+}
+#note .heart{
+	position: absolute;
+	color: #f00;
+	background: #fff;
+	top: -85px;
+	font-size: 20px;
+	left: 250px;
+}
+#three-time .clock{
+	position: absolute;
+	display: block;
+	left: 240px;
+	top: 600px;
+	color: #c6c6c5;
+	background: #fff;
+}
+#three-time .time::after{
+	content:"";
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: #f00;
+	position: absolute;
+	left: 57px;
+	top: -15px;
+	z-index: 0;
+}
+#three-time .heart{
+	position: absolute;
+	color: #f00;
+	background: #fff;
+	top: 579px;
+	font-size: 20px;
+	left: 250px;
+}
